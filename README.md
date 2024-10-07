@@ -21,13 +21,12 @@ Repeat Button: Plays the previous response.
 Type C Port: For programming and charging the device.
 Battery: Powers the device for portable use.
 Project Structure
-bash
-Copy code
-.
+**.
 ├── /src                 # Source code for ESP32, STT, TTS, and AI integration
 ├── /docs                # Documentation and project guidelines
 ├── /hardware            # PCB design and hardware component details
-└── /test                # Unit tests and hardware validation scripts
+└── /test                # Unit tests and hardware validation scripts**
+
 Installation and Setup
 Clone the Repository:
 

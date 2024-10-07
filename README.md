@@ -38,7 +38,7 @@ This project demonstrates the integration of an **ESP32 microcontroller** with a
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-username/portable-voice-assistant-esp32.git
+git clone https://github.com/T-Mohamed-Shafeek/Portable-IoT-Based-Voice-Assistant-Using-ESP32-and-Gemini-AI.git
 ```
 
 ## Change the working directory

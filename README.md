@@ -91,6 +91,6 @@ Install the required libraries for ESP32 and AI model integration:
 
 ## Contact
 **For any questions, feel free to reach out:**
-**Name: Mohamed Shafeek T.**
-**Email: shafeeubaidah@gmail.com**
-**LinkedIn : https://www.linkedin.com/in/mohamed-shafeek-t-a226981b9/**
+- **Name: Mohamed Shafeek T.**
+- **Email: shafeeubaidah@gmail.com**
+- **LinkedIn : https://www.linkedin.com/in/mohamed-shafeek-t-a226981b9/**

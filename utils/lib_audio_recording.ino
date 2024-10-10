@@ -13,10 +13,6 @@
 // ------------------------------------------------------------------------------------------------------------------------------
 
 
-// *** HINT: in case of an 'Sketch too Large' Compiler Warning/ERROR in Arduino IDE (ESP32 Dev Module:
-// -> select a larger 'Partition Scheme' via menu > tools: e.g. using 'No OTA (2MB APP / 2MB SPIFFS) ***
-
-
 #include "driver/i2s_std.h"     // instead of older legacy #include <driver/i2s.h>  
 /* #include <SD.h>              // also needed, but already included in Main.ino */
 

@@ -1,20 +1,17 @@
 
 // ------------------------------------------------------------------------------------------------------------------------------
-// ----------------           KALO Library - Deepgram SpeechToText API call with ESP32 & SD Card                 ---------------- 
+// ----------------           KALO Library - DeepGram SpeechToText API call with ESP32 & SD Card                 ---------------- 
 // ----------------                                      July 22, 2024                                           ----------------
 // ----------------                                                                                              ---------------- 
-// ----------------            Coded by KALO (with support from Sandra, Deepgram team, June 2024)                ----------------
+// ----------------            Coded by KALO (with support from Sandra, DeepGram team, June 2024)                ----------------
 // ----------------      workflow: sending https POST message request, sending message WAV bytes in chunks       ----------------
 // ----------------                                                                                              ----------------   
-// ----------------   CALL: 'text_response = SpeechToText_Deepgram(SD_audio_file)' [no Initialization needed]    ----------------
+// ----------------   CALL: 'text_response = SpeechToText_DeepGram(SD_audio_file)' [no Initialization needed]    ----------------
 // ------------------------------------------------------------------------------------------------------------------------------
 
 
-// *** HINT: in case of an 'Sketch too Large' Compiler Warning/ERROR in Arduino IDE (ESP32 Dev Module:
-// -> select a larger 'Partition Scheme' via menu > tools: e.g. using 'No OTA (2MB APP / 2MB SPIFFS) ***
-
-// Keep in mind: Deepgram SpeechToText services are AI based, means 'whole sentences with context' typically have a much 
-// higher recognition quality (confidence) than a sending single words or short commands only (my observation).
+// NOTE : As DeepGram's SpeechToText (STT) service is a context-based speech recognition framework, a sentence of speech usually has much
+// accuracy than single words or short commands.
 
 
 // --- includes ----------------

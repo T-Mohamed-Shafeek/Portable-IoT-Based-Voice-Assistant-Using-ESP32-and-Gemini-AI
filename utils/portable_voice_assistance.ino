@@ -1,20 +1,9 @@
-
-// ------------------------------------------------------------------------------------------------------------------------------
-// ------------------                      Portable AI Voice Assistant Project by techiesms                         ------------------
-// ----------------                                       Aug 28, 2024                                              ------------------
-// ------------------                                                                                               ------------------
-// ------------------                      This is the modified code and the ordignial code was                     ------------------
-// ------------------                      from KALOPROJECTS. A huge Shoutout to his amazing work                   ------------------
-//                      KALO PROJECTS Github Repo - https://github.com/kaloprojects/KALO-ESP32-Voice-Assistant
-// ------------------------------------------------------------------------------------------------------------------------------
-
-
-// *** HINT: in case of an 'Sketch too Large' Compiler Warning/ERROR in Arduino IDE (ESP32 Dev Module):
-// -> select a larger 'Partition Scheme' via menu > tools: e.g. using 'No OTA (2MB APP / 2MB SPIFFS) ***
+//  IMPORTANT NOTE : In case of an 'Sketch too Large' Compiler Warning/ERROR in Arduino IDE (ESP32 Dev Module) :
+// Select a larger 'Partition Scheme' via menu > tools: e.g. using 'No OTA (2MB APP / 2MB SPIFFS)
 
 
 /*
-Library to be installed 
+Library to be installed  :
 
 ESP32 Audio I2S -  https://github.com/schreibfaul1/ESP32-audioI2S
 ArduinoJSON - https://arduinojson.org/?utm_source=meta&utm_medium=library.properties
@@ -44,13 +33,13 @@ float batteryVoltage;
 
 
 
-// --- PRIVATE credentials -----
+// PRIVATE API Keys
 
-const char* ssid = "SSID_NAME";                                                       // ## INSERT your wlan ssid
-const char* password = "PASSWORD";                                                // ## INSERT your password
-const char* OPENAI_KEY = "***************************************";  // ## optionally (needed for Open AI voices): INSERT your OpenAI key
-const char* gemini_KEY = "Your_GEMINI_API_KEY";                   //gemini api
-#define TTS_MODEL 0                                                                   // 1 = OpenAI TTS; 0 = Google TTS
+const char* ssid = "SSID_NAME";                                                       // ## To assign WLAN SSID
+const char* password = "PASSWORD";                                                // ## To assign Password
+const char* OPENAI_KEY = "***************************************";  // ##  Optional (If choosing OPENAI for TTS)
+const char* gemini_KEY = "Your_GEMINI_API_KEY";                   //GEMINI API Key
+#define TTS_MODEL 0 // For our convenience : 1 = OpenAI TTS; 0 = Google TTS
 
 
 

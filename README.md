@@ -29,10 +29,10 @@ This project demonstrates the integration of an **ESP32 microcontroller** with a
 
 ```bash
 .
-├── /src                 # Source code for ESP32, STT, TTS, and AI integration
-├── /docs                # Documentation and project guidelines
-├── /hardware            # PCB design and hardware component details
-└── /test                # Unit tests and hardware validation scripts
+├── /assests             # Has the Schema and Simple Process Flow diagram to understand the Core concept.
+├── /utils               # Has the 3 main project files.
+├── LICENSE            # The License
+└── README.md               # A comprehensive information about the project
 ```
 ## Installation and Setup
 

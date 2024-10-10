@@ -31,7 +31,8 @@ This project demonstrates the integration of an **ESP32 microcontroller** with a
 .
 ├── /assests             # Has the Schema and Simple Process Flow diagram to understand the Core concept.
 ├── /utils               # Has the 3 main project files.
-├── LICENSE            # The License
+├── LICENSE              # The License
+├── project_documentation.pdf  # The detailed documentation the project      
 └── README.md               # A comprehensive information about the project
 ```
 ## Installation and Setup
